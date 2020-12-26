@@ -1,0 +1,906 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /********** header section **********/
+    .navbar-light .navbar-toggler {
+        margin-left: 73px;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        margin: 0px 15px;
+        font-size: 14px;
+        padding: 3px;
+    }
+    .header-section .main-menu .navbar-light .btn-link {
+        font-size: 13px;
+        margin: 0px 15px;
+        width: 82px;
+    }
+    .header-section .wid-50 {
+        width: 50%;
+    }
+    .header-section .logo {
+        padding-top: 20px;
+    }
+    .header-section .main-menu {
+        padding-top: 20px;
+    }
+    .header-section .banner-content {
+        padding: 120px 0px 80px 0px;
+    }
+    .header-section .banner-content h2 {
+        font-size: 30px;
+        line-height: 37px;
+        padding-bottom: 25px;
+    }
+    .header-section .banner-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .header-section .banner-content .btn-primary {
+        width: 102px;
+        height: 35px;
+        font-size: 11px;
+        margin-right: 17px;
+    }
+    .header-section .banner-content .link {
+        font-size: 13px;
+    }
+    .header-section .about-section {
+        width: 100%;
+        padding-top: 80px;
+    }
+    .header-section .about-section h2 {
+        font-size: 30px;
+        line-height: 38px;
+        padding-bottom: 15px;
+    }
+    .header-section .about-section p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    .header-section .about-item {
+        padding: 23px 18px 0px 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .header-section .for-padd {
+        padding-top: 0px;
+    }
+    /********** service section **********/
+    .service-section {
+        padding: 30px 0px;
+    }
+    .service-section .service-head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .service-section .service-head p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    .service-section .service-head {
+        padding-bottom: 50px;
+    }
+    .service-section .service-item {
+        padding-bottom: 30px;
+    }
+    .service-section .service-padd {
+        padding-top: 0px;
+    }
+    /********** safety section **********/
+    .safety-section {
+        padding: 30px 0px;
+    }
+    .safety-section .safety-content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .safety-section .safety-content p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .safety-section .safety-content .drive {
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .safety-section .safety-content .drive h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .safety-section .safety-content .drive p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 60%;
+    }
+    .safety-section .safety-content .ride {
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .safety-section .safety-content .ride h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .safety-section .safety-content .ride p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 60%;
+    }
+    .safety-section .safety-content .btn-primary {
+        width: 102px;
+        height: 35px;
+        font-size: 11px;
+        margin-right: 17px;
+    }
+    .safety-section .safety-content .link {
+        font-size: 13px;
+    }
+    .safety-section .safety-img {
+        padding-top: 30px;
+    }
+    .safety-section .safety-img img {
+        height: 302px;
+        width: 360px;
+    }
+    /********** move section **********/
+    .move-section .move-content {
+        padding-left: 0px;
+    }
+    .move-section {
+        padding: 70px 0px 50px 0px;
+    }
+    .move-section .move-content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 25px 0px 15px 0px;
+        width: 100%;
+    }
+    .move-section .move-content p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .move-section .move-content .drive {
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .move-section .move-content .drive h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .move-section .move-content .drive p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 60%;
+    }
+    .move-section .move-content .ride {
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .move-section .move-content .ride h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .move-section .move-content .ride p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 60%;
+    }
+    .move-section .move-content .btn-primary {
+        width: 102px;
+        height: 35px;
+        font-size: 11px;
+        margin-right: 17px;
+    }
+    .move-section .move-content .link {
+        font-size: 13px;
+    }
+    .move-section .move-img img {
+        height: 278px;
+        width: 353px;
+    }
+    /********** finance section **********/
+    .finance-section {
+        width: 100%;
+        padding-bottom: 22px;
+    }
+    .finance-section .finance-head {
+        padding: 40px 0px 67px 0px;
+    }
+    .finance-section .finance-head h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-bottom: 20px;
+    }
+    .finance-section .finance-head p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .finance-section .finance-item h4 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .finance-section .finance-item ul li {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    .finance-section .finance-img img {
+        height: 277px;
+        width: 359px;
+    }
+    /********** demo section **********/
+    .demo-section {
+        padding: 50px 0px;
+    }
+    .demo-section .demo-content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-bottom: 5px;
+    }
+    .demo-section .demo-content p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 35px;
+    }
+    .demo-section .form .form-control {
+        padding: 5px 12px 5px 18px;
+        font-size: 15px;
+        height: 54px;
+    }
+    .demo-section .form .btn-primary {
+        top: 11px;
+        right: 0px;
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    /********** footer section **********/
+    .footer-section {
+        padding: 50px 0px;
+    }
+    .footer-section .footer-content {
+        width: 50%;
+    }
+    .footer-section .footer-content img {
+        padding-bottom: 20px;
+        height: 60px;
+        width: 132px;
+    }
+    .footer-section .footer-content .email {
+        padding: 13px 0px
+    }
+    .footer-section .list-padd-1 {
+        padding-left: 20px;
+    }
+    .footer-section .list-padd-2 {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .footer-section .list-padd-3 {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .footer-section .col-md-3 {
+        width: 50%;
+    }
+    .footer-section .footer-list ul li {
+        padding-bottom: 0px;
+    }
+    .footer-section .footer-bottom {
+        padding-top: 40px;
+    }
+    .footer-section .footer-bottom .copyright {
+        text-align: center;
+        font-size: 13px;
+    }
+    .footer-section .footer-bottom .bottom-list ul li a {
+        font-size: 13px;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /********** header section **********/
+    .navbar-light .navbar-toggler {
+        margin-left: 167px;
+    }
+    .navbar-collapse {
+        margin-left: 105px;
+        margin-top: 15px;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        margin: 0px 15px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .header-section .main-menu .navbar-light .btn-link {
+        font-size: 13px;
+        margin: 0px 15px;
+        width: 82px;
+    }
+    .header-section .wid-50 {
+        width: 50%;
+    }
+    .header-section .logo {
+        padding-top: 24px;
+    }
+    .header-section .main-menu {
+        padding-top: 20px;
+    }
+    .header-section .banner-content {
+        padding: 125px 0px 85px 0px;
+    }
+    .header-section .banner-content h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding-bottom: 25px;
+    }
+    .header-section .banner-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .header-section .banner-content .btn-primary {
+        width: 110px;
+        height: 38px;
+        font-size: 12px;
+        margin-right: 19px;
+    }
+    .header-section .banner-content .link {
+        font-size: 14px;
+    }
+    .header-section .about-section {
+        width: 100%;
+        padding-top: 80px;
+    }
+    .header-section .about-section h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding-bottom: 15px;
+    }
+    .header-section .about-section p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    .header-section .about-item {
+        padding: 23px 18px 0px 22px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    .header-section .for-padd {
+        padding-top: 0px;
+    }
+    /********** service section **********/
+    .service-section {
+        padding: 30px 0px;
+    }
+    .service-section .service-head h2 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .service-section .service-head p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    .service-section .service-head {
+        padding-bottom: 50px;
+    }
+    .service-section .service-item {
+        padding-bottom: 30px;
+        display: grid;
+        place-items: center;
+    }
+    .service-section .service-item p {
+        width: 74%;
+    }
+    .service-section .service-padd {
+        padding-top: 0px;
+    }
+    /********** safety section **********/
+    .safety-section {
+        padding: 30px 0px;
+    }
+    .safety-section .safety-content h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .safety-section .safety-content p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .safety-section .safety-content .col-md-6 {
+        width: 50%;
+    }
+    .safety-section .safety-content .drive h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .safety-section .safety-content .drive p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 70%;
+    }
+    .safety-section .safety-content .ride h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .safety-section .safety-content .ride p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 70%;
+    }
+    .safety-section .safety-content .btn-primary {
+        width: 110px;
+        height: 38px;
+        font-size: 12px;
+        margin-right: 19px;
+    }
+    .safety-section .safety-content .link {
+        font-size: 14px;
+    }
+    .safety-section .safety-img {
+        padding-top: 40px;
+    }
+    .safety-section .safety-img img {
+        height: 310px;
+        width: 427px;
+    }
+    /********** move section **********/
+    .move-section .move-content {
+        padding-left: 0px;
+    }
+    .move-section {
+        padding: 70px 0px 50px 0px;
+    }
+    .move-section .move-img img {
+        height: 300px;
+        width: 460px;
+    }
+    .move-section .move-content h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding: 50px 0px 15px 0px;
+        width: 100%;
+    }
+    .move-section .move-content p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .move-section .move-content .col-md-6 {
+        width: 50%;
+    }
+    .move-section .move-content .drive h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .move-section .move-content .drive p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 70%;
+    }
+    .move-section .move-content .ride h4 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .move-section .move-content .ride p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 70%;
+    }
+    .move-section .move-content .btn-primary {
+        width: 110px;
+        height: 38px;
+        font-size: 12px;
+        margin-right: 19px;
+    }
+    .move-section .move-content .link {
+        font-size: 14px;
+    }
+    /********** finance section **********/
+    .finance-section {
+        width: 100%;
+        padding-bottom: 35px;
+    }
+    .finance-section .finance-head {
+        padding: 70px 0px 67px 0px;
+    }
+    .finance-section .finance-head h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding-bottom: 20px;
+    }
+    .finance-section .finance-head p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .finance-section .item-3 {
+        padding-top: 30px;
+    }
+    .finance-section .finance-item h4 {
+        font-size: 19px;
+        padding-bottom: 20px;
+    }
+    .finance-section .finance-item ul li {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .finance-section .finance-img img {
+        height: 305px;
+        width: 450px;
+    }
+    /********** demo section **********/
+    .demo-section {
+        padding: 70px 0px;
+    }
+    .demo-section .demo-content h2 {
+        font-size: 34px;
+        line-height: 38px;
+        padding-bottom: 10px;
+    }
+    .demo-section .demo-content p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 35px;
+    }
+    .demo-section .form .form-control {
+        padding: 5px 11px 6px 20px;
+        font-size: 16px;
+        height: 60px;
+    }
+    .demo-section .form .btn-primary {
+        top: 13px;
+        right: 0px;
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+    /********** footer section **********/
+    .footer-section {
+        padding: 50px 0px;
+    }
+    .footer-section .footer-content {
+        width: 50%;
+    }
+    .footer-section .footer-content img {
+        padding-bottom: 20px;
+        height: 60px;
+        width: 132px;
+    }
+    .footer-section .footer-content .email {
+        padding: 13px 0px
+    }
+    .footer-section .list-padd-1 {
+        padding-left: 20px;
+    }
+    .footer-section .list-padd-2 {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .footer-section .list-padd-3 {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .footer-section .col-md-3 {
+        width: 50%;
+    }
+    .footer-section .footer-list ul li {
+        padding-bottom: 0px;
+    }
+    .footer-section .footer-bottom {
+        padding-top: 40px;
+    }
+    .footer-section .footer-bottom .copyright {
+        text-align: center;
+        font-size: 13px;
+    }
+    .footer-section .footer-bottom .bottom-list ul li a {
+        font-size: 13px;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    /********** header section **********/
+    .header-section .logo {
+        padding-top: 30px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-left: 257px;
+    }
+    .navbar-collapse {
+        margin-left: 193px;
+        margin-top: 20px;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        margin: 0px 15px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .header-section .main-menu .navbar-light .btn-link {
+        font-size: 13px;
+        margin: 0px 15px;
+        width: 82px;
+    }
+    .header-section .banner-content {
+        padding: 150px 0px 80px 0px;
+    }
+    .header-section .banner-content h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .header-section .banner-content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-bottom: 22px;
+    }
+    .header-section .banner-content .btn-primary {
+        width: 108px;
+        height: 33px;
+        font-size: 12px;
+        margin-right: 10px;
+        padding-top: 7px;
+    }
+    .header-section .banner-content .link {
+        font-size: 13px;
+    }
+    .header-section .about-section {
+        width: 100%;
+        padding-top: 100px;
+    }
+    .header-section .about-section h2 {
+        font-size: 35px;
+        line-height: 38px;
+        padding-bottom: 15px;
+    }
+    .header-section .about-section p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .header-section .about-item {
+        padding: 12px 12px 0px 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .header-section .about-item h4 {
+        font-size: 20px;
+        margin-top: 30px;
+        padding-bottom: 8px;
+    }
+    .header-section .about-item p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    /********** service section **********/
+    .service-section .service-head h2 {
+        font-size: 36px;
+        line-height: 42px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .service-section .service-head {
+        padding-bottom: 60px;
+    }
+    .service-section .service-head p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 70%;
+    }
+    .service-section .service-padd {
+        padding-top: 40px;
+    }
+    .service-section .service-item img {
+        padding-bottom: 15px;
+    }
+    .service-section .service-item h4 {
+        font-size: 16px;
+        padding-bottom: 2px;
+    }
+    .service-section .service-item p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    /********** safety section **********/
+    .safety-section {
+        padding: 40px 0px;
+    }
+    .safety-section .safety-content h2 {
+        font-size: 36px;
+        line-height: 41px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .safety-section .safety-content p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        padding-bottom: 19px;
+    }
+    .safety-section .safety-content .btn-primary {
+        width: 108px;
+        height: 33px;
+        font-size: 12px;
+        margin-right: 10px;
+        padding-top: 7px;
+    }
+    .safety-section .safety-content .link {
+        font-size: 13px;
+    }
+    .safety-section .safety-img img {
+        height: 293px;
+        width: 367px;
+    }
+    /********** move section **********/
+    .move-section .move-content {
+        padding-left: 0px;
+    }
+    .move-section .move-content h2 {
+        font-size: 36px;
+        line-height: 41px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .move-section .move-content p {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        padding-bottom: 19px;
+    }
+    .move-section .move-content .btn-primary {
+        width: 108px;
+        height: 33px;
+        font-size: 12px;
+        margin-right: 10px;
+        padding-top: 7px;
+    }
+    .move-section .move-content .link {
+        font-size: 13px;
+    }
+    .move-section .move-img img {
+        height: 275px;
+        width: 345px;
+    }
+    /********** finance section **********/
+    .finance-section {
+        padding-bottom: 35px;
+    }
+    .finance-section .finance-head {
+        padding: 35px 0px 63px 0px;
+    }
+    .finance-section .finance-head h2 {
+        font-size: 36px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    .finance-section .finance-head p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .finance-section .finance-img img {
+        height: 355px;
+        width: 368px;
+    }
+    .finance-section .finance-item h4 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .finance-section .finance-item ul li {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .finance-section .finance-padd {
+        padding-top: 20px;
+    }
+    /********** demo section **********/
+    .demo-section {
+        padding: 60px 0px 40px 0px;
+    }
+    .demo-section .demo-content h2 {
+        font-size: 36px;
+        line-height: 40px;
+        padding-bottom: 5px;
+    }
+    .demo-section .form .form-control {
+        padding: 0px 8px 0px 14px;
+        font-size: 16px;
+        height: 53px;
+    }
+    .demo-section .form .btn-primary {
+        top: 13px;
+        right: 3px;
+        font-size: 12px;
+        padding: 3px 7px;
+    }
+    /********** footer section **********/
+    .footer-section {
+        padding: 60px 0px 50px 0px;
+    }
+    .footer-section .list-padd-1 {
+        padding-left: 6px;
+    }
+    .footer-section .list-padd-2 {
+        padding-left: 0px;
+    }
+    .footer-section .list-padd-3 {
+        padding-left: 28px;
+    }
+    .footer-section .footer-bottom {
+        padding-top: 25px;
+    }
+    .footer-section .footer-bottom .copyright p {
+        margin: 0px;
+    }
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+    /*********** header section ***********/
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        margin: 0px 5px;
+        padding: 8px 6px;
+    }
+    .header-section .banner-content .btn-primary {
+        width: 114px;
+        height: 36px;
+        font-size: 13px;
+        margin-right: 18px;
+        padding-top: 8px;
+    }
+    /*********** finance section ***********/
+    .finance-section .finance-img img {
+        height: 460px;
+        width: 537px;
+    }
+    /*********** safety section ***********/
+    .safety-section .safety-img img {
+        height: 328px;
+        width: 478px;
+    }
+    /*********** move section ***********/
+    .move-section .move-content {
+        padding-left: 0px;
+    }
+    .move-section .move-img img {
+        height: 300px;
+        width: 467px;
+    }
+}
